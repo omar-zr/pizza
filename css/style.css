@@ -5,6 +5,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -78,7 +84,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: url(../images/bg_4.jpg) no-repeat fixed;
 }
 
 [tabindex="-1"]:focus {
@@ -9732,12 +9738,12 @@ a.text-dark:focus {
 
 body {
     font-family: "Poppins", Arial, sans-serif;
-    background: #121618;
+    background: #523628;
     font-size: 15px;
     line-height: 1.8;
     font-weight: 300;
     color: gray;
-    background: url(../images/bg_4.jpg) no-repeat fixed;
+    background: url(../images/3.jpg) fixed no-repeat;
     background-size: cover;
 }
 
@@ -9788,13 +9794,13 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: #121618 !important;
+    background: #523628 !important;
     z-index: 3;
 }
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #000 !important;
+        background: #523628 !important;
         position: relative;
     }
 }
@@ -9927,7 +9933,7 @@ h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #121618 !important;
+    background: #523628 !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -10141,6 +10147,12 @@ h5,
     }
 }
 
+@media (max-width: 767.98px) {
+    .subheading {
+        display: none;
+    }
+}
+
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
     font-family: "Nothing You Could Do", cursive;
     font-size: 30px;
@@ -10165,6 +10177,7 @@ h5,
 @media (max-width: 991.98px) {
     .owl-carousel.home-slider .slider-item .slider-text h1 {
         font-size: 30px;
+        margin-top: 40%;
     }
 }
 
@@ -10408,8 +10421,9 @@ h5,
 }
 
 .ftco-intro .wrap .info {
-    background: #000;
+    background: rgb(255, 255, 255);
     padding: 30px;
+    color: black;
 }
 
 @media (min-width: 1200px) {
@@ -10431,7 +10445,7 @@ h5,
 
 .ftco-intro .wrap .social {
     width: 35%;
-    background: #C26D00;
+    background: #523628 !important;
 }
 
 @media (max-width: 767.98px) {
@@ -10465,6 +10479,7 @@ h5,
 
 .ftco-intro .wrap h3 {
     font-size: 16px;
+    color: black;
 }
 
 .ftco-intro .wrap .text {
@@ -10719,8 +10734,8 @@ h5,
 }
 
 .pricing-entry .text h3 span {
-    background: #121618;
-    background: url(../images/bg_4.jpg) no-repeat fixed;
+    /* background: #121618; */
+    /* background: url(../images/bg_4.jpg) no-repeat fixed; */
     padding-right: 20px;
 }
 
@@ -10728,8 +10743,8 @@ h5,
     width: 80px;
     color: #C26D00;
     text-align: right;
-    background: #121618;
-    background: url(../images/bg_4.jpg) no-repeat fixed;
+    /* background: #121618; */
+    /* background: url(../images/bg_4.jpg) no-repeat fixed; */
     font-size: 16px;
 }
 
@@ -11095,7 +11110,7 @@ textarea.form-control {
 .ftco-footer {
     font-size: 16px;
     padding: 7em 0;
-    background: #101315;
+    background: #523628 !important;
 }
 
 .ftco-footer .ftco-footer-logo {
