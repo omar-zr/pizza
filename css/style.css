@@ -9743,7 +9743,7 @@ body {
     line-height: 1.8;
     font-weight: 300;
     color: gray;
-    background: url(../images/3.jpg) fixed no-repeat;
+    background: url(../images/sub/5.jpg) fixed no-repeat;
     background-size: cover;
 }
 
@@ -9794,13 +9794,13 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: #523628 !important;
+    background: #52362800 !important;
     z-index: 3;
 }
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #523628 !important;
+        background: #ffffff !important;
         position: relative;
     }
 }
@@ -9876,6 +9876,12 @@ h5,
     .ftco-navbar-light .navbar-nav>.nav-item.ftco-seperator:before {
         display: none;
     }
+    img#logo {
+        filter: invert(100%);
+    }
+    .nav-item>a {
+        color: black !important;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -9933,13 +9939,17 @@ h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #523628 !important;
+    background: #ffffff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
+#logo.scrolled {
+    filter: invert(100%);
+}
+
 .ftco-navbar-light.scrolled .nav-item>.nav-link {
-    color: #fff !important;
+    color: #000000 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.active>a {
@@ -10008,6 +10018,10 @@ h5,
     color: #C26D00 !important;
 }
 
+.ftco-navbar-light.navbar-brand.scrolled {
+    filter: invert(100%) !important;
+}
+
 .ftco-navbar-light.scrolled.awake {
     margin-top: 0px;
     -webkit-transition: .3s all ease-out;
@@ -10021,8 +10035,11 @@ h5,
     transition: .3s all ease-out;
 }
 
-.ftco-navbar-light.scrolled .navbar-brand {
-    color: #fff;
+@media (min-width: 992px) {
+    .ftco-navbar-light.scrolled .navbar-brand {
+        color: #fff;
+        filter: invert(100%);
+    }
 }
 
 .navbar-brand {
@@ -10105,6 +10122,7 @@ h5,
 }
 
 .owl-carousel.home-slider {
+    top: -96px;
     position: relative;
     height: 750px;
     z-index: 0;
@@ -10418,6 +10436,7 @@ h5,
 
 .ftco-intro .wrap {
     width: 100%;
+    margin-top: -96px;
 }
 
 .ftco-intro .wrap .info {
@@ -10785,7 +10804,10 @@ h5,
 .ftco-appointment {
     width: 100%;
     position: relative;
-    background: #000;
+    background-image: url(../images/sub/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .ftco-appointment .overlay {
@@ -11110,7 +11132,7 @@ textarea.form-control {
 .ftco-footer {
     font-size: 16px;
     padding: 7em 0;
-    background: #523628 !important;
+    background: #ffffff !important;
 }
 
 .ftco-footer .ftco-footer-logo {
