@@ -10166,7 +10166,7 @@ h5,
 
 @media (max-width: 767.98px) {
     .subheading {
-        display: none;
+
     }
 }
 
@@ -10463,7 +10463,7 @@ h5,
 
 .ftco-intro .wrap .social {
     width: 35%;
-    background: #523628 !important;
+    background: #211511 !important;
 }
 
 @media (max-width: 767.98px) {
@@ -12294,3 +12294,12 @@ textarea.form-control {
     @keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-60px,0,0);transform:translate3d(-60px,0,0);}to{opacity:1;-webkit-transform:none;transform:none;}}
     @-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translateX(-20px);transform:translateX(-20px);}100%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0);}}
     @keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translateX(-20px);-ms-transform:translateX(-20px);transform:translateX(-20px);}100%{opacity:1;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0);}}
+
+
+
+    @media (min-width:320px)  {.mobile{height: 0px;} }
+    @media (min-width:480px)  { .mobile{height: 0px;} }
+    @media (min-width:600px)  { .mobile{height: 0px;} }
+    @media (min-width:801px)  {  .mobile{height: initial;}/* tablet, landscape iPad, lo-res laptops ands desktops */ }
+    @media (min-width:1025px) { .mobile{height: initial;}/* big landscape tablets, laptops, and desktops */ }
+    @media (min-width:1281px) { .mobile{height: initial;}/* hi-res laptops and desktops */ }
