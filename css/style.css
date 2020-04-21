@@ -12131,6 +12131,7 @@ textarea.form-control {
 }
 
 #ftco-loader.fullscreen {
+    background-color: #211511 !important;
     padding: 0;
     left: 0;
     top: 0;
