@@ -10120,9 +10120,9 @@ h5,
 }
 
 .owl-carousel.home-slider {
-    top: -96px;
+    top: -97px;
     position: relative;
-    height: 750px;
+    height: 100%;
     z-index: 0;
 }
 
@@ -10142,7 +10142,7 @@ h5,
     left: 0;
     right: 0;
     background: #000;
-    opacity: .7;
+    opacity: .4;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -10432,7 +10432,7 @@ h5,
 
 .ftco-intro .wrap {
     width: 100%;
-    margin-top: -96px;
+    margin-top: -97px;
 }
 
 .ftco-intro .wrap .info {
@@ -12571,3 +12571,121 @@ textarea.form-control {
     }
     /* hi-res laptops and desktops */
 }
+
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    
+        75% {
+        transform: scale(1.4 , 1.4);
+    }
+    100% {
+        transform: scale(1.6,1.6);
+    }
+}
+
+ .owl-item.active .slider-item.cardcontainer  {
+	animation: zoominoutsinglefeatured 20s infinite ;
+}
+
+
+/*! CSS Used from: https://www.papparoti.ca/wp-content/themes/dt-the7/css/main.min.css?ver=4.1.2 ; media=all */
+@media all{
+    *{margin:0;}
+    *{padding:0;}
+    a:active,a:focus,a:hover{outline:0;}
+    svg:not(:root){overflow:hidden;}
+    a:hover{text-decoration:none;}
+    p{margin-bottom:10px;}
+    a{text-decoration:underline;}
+    .soc-ico a,.soc-ico a:hover{text-decoration:none;}
+    .soc-ico{overflow:hidden;}
+    .soc-ico a{position:relative;visibility:hidden;display:inline-block;vertical-align:middle;margin:2px;width:24px;height:24px;text-align:center;-webkit-border-radius:50%;border-radius:50%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+    .soc-ico a:after,.soc-ico a:before{position:absolute;top:0;left:0;width:24px;height:24px;content:"";-webkit-border-radius:50%;border-radius:50%;-webkit-transition:-webkit-transform .15s;transition:transform 150ms;}
+    .soc-ico a:before,.soc-ico a:hover:after{-webkit-transform:scale(1);transform:scale(1);}
+    .soc-ico a:after,.soc-ico a:hover:before{-webkit-transform:scale(0);transform:scale(0);}
+    .soc-ico a .icon{position:relative;z-index:1;width:24px;height:24px;}
+    #page .soc-ico a:hover .icon{fill:#fff;}
+    .top-bar a,.top-bar a:hover{text-decoration:none;}
+    .top-bar{-webkit-box-sizing:border-box;}
+    .top-bar,.top-bar>.mini-widgets{display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;}
+    .top-bar{position:relative;display:flex;margin-top:0;box-sizing:border-box;}
+    .top-bar:before{position:absolute;bottom:0;left:0;width:100%;height:1px;content:"";-webkit-box-sizing:content-box;box-sizing:content-box;}
+    .top-bar.solid-bg:before{height:100%;}
+    .top-bar>.mini-widgets{display:flex;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex:1 1 auto;-moz-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;-webkit-justify-content:flex-end;-moz-justify-content:flex-end;-ms-justify-content:flex-end;justify-content:flex-end;-ms-flex-pack:end;-webkit-flex-flow:row wrap;-moz-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;}
+    .top-bar .mini-widgets:first-child{-webkit-justify-content:flex-start;-moz-justify-content:flex-start;-ms-justify-content:flex-start;justify-content:flex-start;-ms-flex-pack:start;}
+    .top-bar .mini-widgets.right-widgets{-webkit-justify-content:flex-end;-moz-justify-content:flex-end;-ms-justify-content:flex-end;justify-content:flex-end;-ms-flex-pack:end;}
+    .top-bar *{font-size:inherit;line-height:inherit;}
+    .mini-contacts{position:relative;vertical-align:middle;}
+    .transparent .top-bar{margin-bottom:-1px;}
+    .top-bar a:hover{text-decoration:none;opacity:.7;}
+    .top-bar .soc-ico a:hover{opacity:1;}
+    .masthead.widgets .mini-contacts,.masthead.widgets .soc-ico,.masthead.widgets .text-area{display:inline-block;margin-left:10px;margin-right:10px;}
+    .masthead.widgets:not(.side-header) .mini-contacts.first,.masthead.widgets:not(.side-header) .mini-contacts:first-child,.masthead.widgets:not(.side-header) .soc-ico.first,.masthead.widgets:not(.side-header) .soc-ico:first-child{margin-left:0;}
+    .masthead.widgets:not(.side-header) .mini-contacts.last,.masthead.widgets:not(.side-header) .mini-contacts:last-child,.masthead.widgets:not(.side-header) .text-area.last,.masthead.widgets:not(.side-header) .text-area:last-child{margin-right:0;}
+    .mini-contacts{display:inline-block;padding-left:18px;margin:0;background-repeat:no-repeat;background-position:0 center;}
+    .mini-contacts.clock,.mini-contacts.email{padding-left:22px;}
+    .masthead .soc-ico,.text-area{display:inline-block;vertical-align:middle;}
+    .text-area{position:relative;}
+    .masthead .soc-ico a:hover,.masthead .soc-ico.custom-bg a:hover{background:0 0;}
+    .masthead .soc-ico.hover-accent-bg a:hover{-webkit-box-shadow:none;box-shadow:none;}
+    .mini-contacts,.text-area{margin-right:10px;margin-left:10px;}
+    .mini-widgets .text-area a{text-decoration:underline;}
+    .text-area a:hover{text-decoration:none;}
+    .text-area>p{margin-bottom:0;}
+    .masthead .soc-ico a{line-height:22px;}
+    @media all and (-ms-high-contrast:none),(-ms-high-contrast:active){
+    .masthead:not(.side-header):not(.mixed-header) .top-bar{width:100%;}
+    }
+    }
+    /*! CSS Used from: https://www.papparoti.ca/wp-content/uploads/wp-less/dt-the7/css/custom-b678975e8f.css?ver=4.1.2 ; media=all */
+    @media all{
+    a,a:hover{color:#f28d29;}
+    .masthead:not(.side-header):not(.side-header-menu-icon) .top-bar{max-width:calc(1250px - 88px);margin:0 auto;}
+    .top-bar.solid-bg:before{background:#523628 none repeat center center;}
+    .top-bar{padding:0px 0px 0px;}
+    .top-bar,.top-bar a{color:#ffffff;}
+    .top-bar .mini-contacts,.top-bar .text-area{font:13px / 19px "Raleway", Helvetica, Arial, Verdana, sans-serif;text-transform:none;}
+    .top-bar .soc-ico a,.top-bar .soc-ico{line-height:19px;}
+    .mini-contacts{font:normal  14px / 18px "Raleway", Helvetica, Arial, Verdana, sans-serif;color:#262b2e;}
+    .top-bar .mini-contacts{color:#ffffff;}
+    .bold-icons .mini-contacts.email{background-image:url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='16px' height='16px' viewBox='0 0 16 16' enable-background='new 0 0 16 16' fill='%23262b2e' xml:space='preserve'%3E%3Cpath d='M5.097,7.465L1,4.544v6.724L5.097,7.465z M14.964,3.188H1.048l6.953,4.957L14.964,3.188z M9.949,8.146L8,9.535L6.047,8.145l-5.031,4.668h13.958L9.949,8.146z M10.9,7.47l4.1,3.803V4.552L10.9,7.47z'/%3E%3C/svg%3E");}
+    .bold-icons .top-bar .mini-contacts.email{background-image:url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='16px' height='16px' viewBox='0 0 16 16' enable-background='new 0 0 16 16' fill='%23ffffff' xml:space='preserve'%3E%3Cpath d='M5.097,7.465L1,4.544v6.724L5.097,7.465z M14.964,3.188H1.048l6.953,4.957L14.964,3.188z M9.949,8.146L8,9.535L6.047,8.145l-5.031,4.668h13.958L9.949,8.146z M10.9,7.47l4.1,3.803V4.552L10.9,7.47z'/%3E%3C/svg%3E");}
+    .bold-icons .mini-contacts.clock{background-image:url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='16px' height='16px' viewBox='0 0 16 16' enable-background='new 0 0 16 16' xml:space='preserve'%3E%3Cpath fill='%23262b2e' d='M8,1.172C4.229,1.172,1.172,4.23,1.172,8c0,3.773,3.058,6.828,6.828,6.828c3.772,0,6.828-3.055,6.828-6.828C14.828,4.23,11.772,1.172,8,1.172z M12.058,9.036H6.942v-5.43h1.375V7.66h3.74V9.036L12.058,9.036z'/%3E%3C/svg%3E");}
+    .bold-icons .top-bar .mini-contacts.clock{background-image:url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='16px' height='16px' viewBox='0 0 16 16' enable-background='new 0 0 16 16' xml:space='preserve'%3E%3Cpath fill='%23ffffff' d='M8,1.172C4.229,1.172,1.172,4.23,1.172,8c0,3.773,3.058,6.828,6.828,6.828c3.772,0,6.828-3.055,6.828-6.828C14.828,4.23,11.772,1.172,8,1.172z M12.058,9.036H6.942v-5.43h1.375V7.66h3.74V9.036L12.058,9.036z'/%3E%3C/svg%3E");}
+    .masthead .soc-ico.custom-bg a:before{background-color:rgba(173,176,182,0.17);}
+    .masthead .soc-ico.hover-accent-bg a:after{background-color:#f28d29;background-image:none;}
+    .masthead .soc-ico a .icon{fill:#adb0b6;}
+    .masthead .soc-ico a:hover .icon{fill:#ffffff!important;}
+    .text-area{font:normal  14px / 18px "Raleway", Helvetica, Arial, Verdana, sans-serif;color:#262b2e;}
+    .top-bar .text-area{color:#ffffff;}
+    }
+    /*! CSS Used from: https://www.papparoti.ca/wp-content/uploads/wp-less/dt-the7/css/media-b678975e8f.css?ver=4.1.2 ; media=all */
+    @media all{
+    @media screen and (max-width: 1040px){
+    .top-bar{padding-left:0;padding-right:0;}
+    .top-bar .soc-ico a{float:none;display:inline-block;vertical-align:middle;}
+    }
+    @media screen and (max-width: 768px){
+    .masthead .top-bar,.hide-on-second-switch{display:none!important;}
+    .mini-contacts{white-space:normal;}
+    }
+    @media screen and (min-width: 768px){
+    .masthead:not(.side-header):not(.side-header-menu-icon) .top-bar{max-width:calc(1250px - 96px);}
+        }
+    @media screen and (max-width: 768px){
+    .masthead:not(.side-header):not(.side-header-menu-icon) .top-bar{max-width:calc(1250px - 48px);}
+    }
+    }
+    /*! CSS Used fontfaces */
+    @font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+    @font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+    @font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwPIsWqhPAMif.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+    @font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwPIsWqZPAA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+    @font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqhPAMif.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+    @font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

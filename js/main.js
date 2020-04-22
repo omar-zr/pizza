@@ -49,12 +49,25 @@
 		$('.home-slider').owlCarousel({
 	    loop:true,
 	    autoplay: true,
-	    margin:0,
+		margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
 	    nav:true,
 	    autoplayHoverPause: true,
-	    items: 1,
+		items: 1,
+		afterAction: function(el){
+			console.log(this.$owlItems);
+			//remove class active
+			this
+			.$owlItems
+			.removeClass('active')
+		 
+			//add class active
+			this
+			.$owlItems //owl internal $ object containing items
+			.eq(this.currentItem + 1)
+			.addClass('active')    
+			 } ,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
 	      0:{
@@ -69,8 +82,12 @@
 	        items:1,
 	        nav:false
 	      }
-	    }
+		}
+
+
 		});
+
+
 		$('.carousel-work').owlCarousel({
 			autoplay: true,
 			center: true,
