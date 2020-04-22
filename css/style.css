@@ -9738,7 +9738,7 @@ a.text-dark:focus {
 
 body {
     font-family: "Poppins", Arial, sans-serif;
-    background: #523628;
+    background: #211511 ;
     font-size: 15px;
     line-height: 1.8;
     font-weight: 300;
@@ -9794,13 +9794,13 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: #52362800 !important;
+    background: #211511d1  !important;
     z-index: 3;
 }
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #211511 !important;
+        background: #211511d1  !important;
         position: relative;
     }
 }
@@ -10549,7 +10549,7 @@ h5,
 }
 
 .ftco-services .heading-section h2 {
-    color: white;
+    color: #211511;
 }
 
 .services .icon {
@@ -10567,7 +10567,7 @@ h5,
     right: 0;
     bottom: 0;
     content: '';
-    bordeR: 1px solid #fff;
+    bordeR: 1px solid #211511;
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -10585,13 +10585,13 @@ h5,
 .services h3 {
     font-size: 18px;
     margin-bottom: 20px;
-    color: whitesmoke;
+    color: #211511 ;
     text-transform: uppercase;
 }
 
 .services p {
     font-size: 12px;
-    color: rgba(197, 190, 190, 0.637);
+    color: #211511;
 }
 
 .services .media-body {
@@ -10607,7 +10607,7 @@ h5,
     -webkit-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
-    background: #fff;
+    background: #211511c2;
 }
 
 .services-wrap {
@@ -10869,12 +10869,12 @@ h5,
 
 .appointment-form .form-control {
     border: transparent !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-bottom: 1px solid #211511 !important;
     height: 58px !important;
     padding-left: 0;
     padding-right: 0;
     background: transparent !important;
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: #211511 !important;
     font-size: 13px;
     border-radius: 0px;
     -webkit-box-shadow: none !important;
@@ -10883,27 +10883,27 @@ h5,
 
 .appointment-form .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: rgba(255, 255, 255, 0.9);
+    color: #211511;
 }
 
 .appointment-form .form-control::-moz-placeholder {
     /* Firefox 19+ */
-    color: rgba(255, 255, 255, 0.9);
+    color: #211511;
 }
 
 .appointment-form .form-control:-ms-input-placeholder {
     /* IE 10+ */
-    color: rgba(255, 255, 255, 0.9);
+    color: #211511;
 }
 
 .appointment-form .form-control:-moz-placeholder {
     /* Firefox 18- */
-    color: rgba(255, 255, 255, 0.9);
+    color: #211511;
 }
 
 .appointment-form .form-control:focus,
 .appointment-form .form-control:active {
-    border-color: #fff;
+    border-color: #211511;
 }
 
 .appointment-form textarea.form-control {
@@ -12647,7 +12647,7 @@ textarea.form-control {
     @media all{
     a,a:hover{color:#f28d29;}
     .masthead:not(.side-header):not(.side-header-menu-icon) .top-bar{max-width:calc(1250px - 88px);margin:0 auto;}
-    .top-bar.solid-bg:before{background:#523628 none repeat center center;}
+    .top-bar.solid-bg:before{background:#211511  none repeat center center;}
     .top-bar{padding:0px 0px 0px;}
     .top-bar,.top-bar a{color:#ffffff;}
     .top-bar .mini-contacts,.top-bar .text-area{font:13px / 19px "Raleway", Helvetica, Arial, Verdana, sans-serif;text-transform:none;}
