@@ -496,12 +496,10 @@
   content: "\f098";
 }
 .icon-twitter:before {
-  font-size: 2rem;
 
   content: "\f099";
 }
 .icon-facebook:before {
-  font-size: 2rem;
 
   content: "\f09a";
 }
@@ -1162,7 +1160,6 @@
   content: "\f16c";
 }
 .icon-instagram:before {
-  font-size: 2rem;
 
   content: "\f16d";
 }
