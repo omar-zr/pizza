@@ -159,7 +159,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: white;
     text-align: left;
     background-color: url(../images/bg_4.jpg) no-repeat fixed;
 }
@@ -4933,7 +4933,7 @@ input[type="button"].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
@@ -9819,7 +9819,7 @@ body {
     font-size: 15px;
     line-height: 1.8;
     font-weight: 300;
-    color: gray;
+    color: white;
     background: url(../images/sub/5.jpg) fixed no-repeat;
     background-size: cover;
 }
