@@ -104,7 +104,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1.5fr;
+        grid-template-rows: 1fr;
         gap: 1px 1px;
         grid-template-areas: "category" "products";
     }
