@@ -75,7 +75,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1.5fr;
+        grid-template-rows: 1fr;
         gap: 1px 1px;
         grid-template-areas: "category" "products";
     }
@@ -119,8 +119,6 @@
     box-shadow: 7px 7px rgba(77, 77, 77, 0.5);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 @media (max-width: 990px) {
     .grid-container {
         display: grid;
@@ -147,10 +145,6 @@
     }
 }
 
-=======
->>>>>>> parent of 652bdd0... adjust fonts and buttons
-=======
->>>>>>> parent of 652bdd0... adjust fonts and buttons
 html {
     font-family: sans-serif;
     line-height: 1.15;
